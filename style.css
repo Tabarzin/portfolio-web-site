@@ -1,11 +1,11 @@
 :root {
-  --font-small: 20px;
-  --font-medium: 40px;
-  --font-large: 60px;
-  --font-skill-item-text: 18px;
-  --font-price-item-title: 28px;
-  --font-price-i-price: 24px;
-  --font-price-i-text: 18px;
+  --font-small: 1.25rem;
+  --font-medium: 2.5rem;
+  --font-large: 3.75rem;
+  --font-skill-item-text: 1.125rem;
+  --font-price-item-title: 1.75rem;
+  --font-price-i-price: 1.5rem;
+  --font-price-i-text: 1.125rem;
 
   /* Light Theme */
 
@@ -38,13 +38,13 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
   /* padding: 0 20px; */
 }
 
 .header-container {
-  max-width: 1440px;
+  max-width: 90rem;
   display: flex;
   flex-direction: row;
 
@@ -52,14 +52,14 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 
-  height: 90px;
+  height: 5.625rem;
   background: url("./assets/img/bg.png");
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .nav {
-  width: 500px;
+  width: 31.25rem;
   margin-left: auto;
 }
 
@@ -100,7 +100,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: var(--font-small);
-  line-height: 50px;
+  line-height: 3.125rem;
   color: #ffffff;
 }
 
@@ -160,8 +160,8 @@ a {
 }
 
 .hero-container {
-  max-width: 1440px;
-  height: 890px;
+  max-width: 90rem;
+  height: 55.625rem;
   padding: 0 20px;
   background-image: url("./assets/img/bg.png");
   background-position: center -90px;
@@ -188,7 +188,7 @@ a {
 }
 
 .hero-text {
-  width: 475px;
+  width: 29.6875rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -287,7 +287,7 @@ a {
   justify-content: space-between;
   flex-wrap: wrap;
   height: 242px;
-  width: 1400px;
+  width: 87.5rem;
   margin-bottom: 104px;
 }
 
@@ -401,7 +401,7 @@ a {
 }
 .portfolio-images {
   height: 1145px;
-  width: 1400px;
+  width: 87.5rem;
 
   display: flex;
   flex-direction: row;
@@ -412,7 +412,7 @@ a {
 
 .portfolio-image {
   height: 560px;
-  width: 450px;
+  width: 28.125rem;
   display: flex;
   flex-direction: row;
 }
@@ -429,7 +429,7 @@ a {
 
 .video-player {
   height: 780px;
-  width: 1440px;
+  /* width: 1440px; */
   border-radius: 0px;
   position: relative;
   display: flex;
@@ -441,7 +441,7 @@ a {
 
 .video-player-button {
   height: 130px;
-  width: 129px;
+  width: 8.0625rem;
 
   border: 0;
   border-radius: 0px;
@@ -464,10 +464,10 @@ a {
 
 .price-items {
   height: 505px;
-  width: 1400px;
+  width: 87.5rem;
   border-radius: 0px;
   display: flex;
-  gap: 25px;
+  gap: 1.5625rem;
   margin-bottom: 90px;
 }
 
@@ -558,12 +558,12 @@ a {
 .contacts-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   padding: 30px 0px 0px 0px;
 }
 
 .contacts-title {
-  width: 450px;
+  width: 28.125rem;
   height: 80px;
   margin-bottom: 20px;
 
@@ -630,7 +630,7 @@ textarea {
   align-items: center;
   justify-content: space-between;
   height: 150px;
-  max-width: 1400px;
+  max-width: 87.5rem;
   background: #000000;
 }
 
@@ -717,7 +717,7 @@ textarea {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 48rem;
     /* padding: 0; */
   }
 
@@ -726,7 +726,7 @@ textarea {
   }
 
   .header-container {
-    max-width: 768px;
+    max-width: 48rem;
     /* display: flex;
     justify-content: space-around;
 
