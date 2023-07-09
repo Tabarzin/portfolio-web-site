@@ -73,7 +73,7 @@ body {
   list-style: none;
 }
 
-.nav-list:nth-child(1) {
+.nav-list::first-child {
   padding-left: 30px;
 }
 
@@ -417,18 +417,12 @@ a {
   flex-direction: row;
 }
 
-.portfolio-image:nth-child(1) {
+.portfolio-image:first-child {
   margin-right: 10px;
 }
 
-.portfolio-image:nth-child(4) {
-  margin-top: 25px;
-}
-
-.portfolio-image:nth-child(5) {
-  margin-top: 25px;
-}
-
+.portfolio-image:nth-child(4),
+.portfolio-image:nth-child(5),
 .portfolio-image:nth-child(6) {
   margin-top: 25px;
 }
@@ -724,7 +718,7 @@ textarea {
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .logo {
@@ -733,7 +727,7 @@ textarea {
 
   .header-container {
     max-width: 768px;
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
 
     padding: 0;
@@ -743,7 +737,7 @@ textarea {
 
     padding: 0;
 
-    overflow-x: hidden;
+    overflow-x: hidden; */
   }
 
   .hero-container {
@@ -759,10 +753,10 @@ textarea {
 
   .hero-title {
     font-size: 32px;
-    line-height: 64px;
+    /* line-height: 64px;
     font-weight: normal;
     margin-bottom: 16px;
-    padding-top: 30px;
+    padding-top: 30px; */
   }
 
   .hero-text {
