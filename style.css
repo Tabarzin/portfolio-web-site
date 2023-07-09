@@ -94,10 +94,8 @@ body {
 }
 
 .nav-link {
-  line-height: 50px;
   transition: 0.3s;
   text-decoration: none;
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
