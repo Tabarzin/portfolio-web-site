@@ -1,7 +1,7 @@
 :root {
-  --font1: 20px;
-  --font2: 40px;
-  --font3: 60px;
+  --font-small: 20px;
+  --font-medium: 40px;
+  --font-large: 60px;
   --font-skill-item-text: 18px;
   --font-price-item-title: 28px;
   --font-price-i-price: 24px;
@@ -101,7 +101,7 @@ body {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
   color: #ffffff;
 }
@@ -134,7 +134,7 @@ input[type="radio"] {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
   color: #ffffff;
 }
@@ -183,7 +183,7 @@ a {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font3);
+  font-size: var(--font-large);
   line-height: 120px;
   color: #ffffff;
   margin-bottom: 10px;
@@ -194,7 +194,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   color: #ffffff;
   margin-left: 0;
@@ -211,7 +211,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   text-align: center;
   color: #000000;
@@ -227,7 +227,7 @@ a {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font2);
+  font-size: var(--font-medium);
   line-height: 80px;
   text-align: center;
   color: #bdae82;
@@ -258,7 +258,7 @@ a {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font2);
+  font-size: var(--font-medium);
   line-height: 80px;
   text-align: center;
   color: #bdae82;
@@ -331,7 +331,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   text-align: center;
   color: #ffffff;
@@ -376,7 +376,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   text-align: center;
   color: #bdae82;
@@ -395,7 +395,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   text-align: center;
   color: #000000;
@@ -545,7 +545,7 @@ a {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 40px;
   text-align: center;
   color: #000000;
@@ -578,7 +578,7 @@ a {
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
-  font-size: var(--font2);
+  font-size: var(--font-medium);
   line-height: 80px;
   color: #bdae82;
 }
@@ -602,7 +602,7 @@ a {
   border-radius: 0px;
   font-family: Inter;
   color: #bdae82;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   padding: 10px 226px 5px 20px;
   margin-bottom: 8px;
 }
@@ -610,7 +610,7 @@ a {
 .contacts-container input::placeholder {
   font-family: inherit;
   color: #bdae82;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   padding: 7px 230px 5px 16px;
 }
 
@@ -657,7 +657,7 @@ textarea {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
 
   color: #ffffff;
@@ -671,7 +671,7 @@ textarea {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
   color: #ffffff;
 }
@@ -682,7 +682,7 @@ textarea {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
   padding-right: 426px;
   color: #ffffff;
@@ -703,7 +703,7 @@ textarea {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: var(--font1);
+  font-size: var(--font-small);
   line-height: 50px;
   color: #ffffff;
 }
