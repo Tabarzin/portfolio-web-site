@@ -294,7 +294,7 @@ a {
 .skill-item {
   background-position: center top;
   height: 240px;
-  width: 320px;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -304,25 +304,25 @@ a {
 .skill-item:nth-child(1) {
   background-image: url("./assets/svg/camera.svg");
   background-repeat: no-repeat;
-  background-size: 62px 50px;
+  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(2) {
   background-image: url("./assets/svg/video.svg");
   background-repeat: no-repeat;
-  background-size: 62px 50px;
+  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(3) {
   background-image: url("./assets/svg/retouch.svg");
   background-repeat: no-repeat;
-  background-size: 62px 50px;
+  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(4) {
   background-image: url("./assets/svg/mic.svg");
   background-repeat: no-repeat;
-  background-size: 62px 50px;
+  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item-title {
@@ -334,12 +334,12 @@ a {
   text-align: center;
   color: #ffffff;
   height: 40px;
-  width: 280px;
-  padding: 95px 20px 50px 20px;
+  width: 17.5rem;
+  padding: 5.9375rem 1.25rem 3.125rem 1.25rem;
 }
 
 .skill-item-text {
-  width: 280px;
+  width: 17.5rem;
   height: 72px;
 
   font-family: Inter;
@@ -355,14 +355,14 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5px;
+  gap: 0.3125rem;
 
   padding-bottom: 60px;
 }
 
 .portfiolio-btn {
   height: 55px;
-  width: 220px;
+  width: 13.75rem;
   border: 2px solid #bdae82;
   box-sizing: border-box;
   border-radius: 0px;
@@ -418,7 +418,7 @@ a {
 }
 
 .portfolio-image:first-child {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .portfolio-image:nth-child(4),
@@ -474,7 +474,7 @@ a {
 .price-item {
   display: block;
   height: 505px;
-  width: 450px;
+  width: 28.125rem;
   border-radius: 0px;
   border: 3px solid #bdae82;
   box-sizing: border-box;
@@ -482,7 +482,7 @@ a {
 
 .price-items-title {
   display: block;
-  padding: 40px 161px 20px 160px;
+  padding: 2.5rem 10.0625rem 1.25rem 160px;
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
@@ -519,8 +519,8 @@ a {
 
 .price-button {
   height: 55px;
-  width: 220px;
-  margin: 35px 110px;
+  width: 13.75rem;
+  margin: 2.1875rem 6.875rem;
 
   border-radius: 0px;
   background: #bdae82;
@@ -559,7 +559,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  padding: 30px 0px 0px 0px;
+  padding: 1.875rem 0rem 0rem 0rem;
 }
 
 .contacts-title {
@@ -577,7 +577,7 @@ a {
 
 .contacts-container-box {
   height: 50px;
-  width: 450px;
+  width: 28.125rem;
 
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid #bdae82;
@@ -587,7 +587,7 @@ a {
 
 .contacts-container-message {
   height: 100px;
-  width: 450px;
+  width: 28.125rem;
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid #bdae82;
   box-sizing: border-box;
@@ -595,7 +595,7 @@ a {
   font-family: Inter;
   color: #bdae82;
   font-size: var(--font-small);
-  padding: 10px 226px 5px 20px;
+  padding: 0.625rem 14.125rem 0.3125rem 1.25rem;
   margin-bottom: 8px;
 }
 
@@ -603,7 +603,7 @@ a {
   font-family: inherit;
   color: #bdae82;
   font-size: var(--font-small);
-  padding: 7px 230px 5px 16px;
+  padding: 0.4375rem 14.375rem 0.3125rem 1rem;
 }
 
 textarea {
@@ -612,7 +612,7 @@ textarea {
 
 .contacts-button {
   height: 55px;
-  width: 220px;
+  width: 13.75rem;
 
   cursor: pointer;
   border-radius: 0px;
@@ -638,14 +638,14 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 182px;
+  width: 11.375rem;
   margin: 0;
   padding: 0;
 }
 
 .copyright {
   height: 50px;
-  width: 19px;
+  width: 1.1875rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -657,7 +657,7 @@ textarea {
 
 .date {
   height: 50px;
-  width: 49px;
+  width: 3.0625rem;
   margin-right: 20px;
   margin-left: 10px;
   font-family: Inter;
@@ -670,13 +670,13 @@ textarea {
 
 .github {
   height: 50px;
-  width: 61px;
+  width: 3.8125rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: var(--font-small);
   line-height: 50px;
-  padding-right: 426px;
+  padding-right: 26.625rem;
   color: #ffffff;
 }
 
@@ -690,8 +690,8 @@ textarea {
 
 .rsschool {
   height: 50px;
-  width: 211px;
-  margin-left: 220px;
+  width: 13.1875rem;
+  margin-left: 13.75rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -706,7 +706,7 @@ textarea {
   justify-content: space-between;
   align-items: center;
 
-  width: 188px;
+  width: 11.75rem;
 
   border-radius: 0px;
   margin: 0;
@@ -722,7 +722,7 @@ textarea {
   }
 
   .logo {
-    margin-left: 60px;
+    margin-left: 3.75rem;
   }
 
   .header-container {
@@ -748,7 +748,7 @@ textarea {
 
   .hero-block {
     padding: 0;
-    margin: 23px 0 0 40px;
+    margin: 1.4375rem 0 0 2.5rem;
   }
 
   .hero-title {
@@ -762,7 +762,7 @@ textarea {
   .hero-text {
     display: block;
     line-height: 24px;
-    width: 390px;
+    width: 24.375rem;
     height: 72px;
     margin-bottom: 38px;
   }
@@ -786,7 +786,7 @@ textarea {
   }
 
   .skills-items {
-    width: 728px;
+    width: 45.5rem;
     height: 520px;
     justify-content: space-evenly;
     margin-bottom: 90px;
@@ -794,39 +794,39 @@ textarea {
 
   .skill-item {
     height: 224px;
-    width: 300px;
+    width: 18.75rem;
   }
 
   .skill-item:nth-child(1) {
-    margin-left: 25px;
-    margin-top: 5px;
+    margin-left: 1.5625rem;
+    margin-top: 0.3125rem;
   }
 
   .skill-item:nth-child(2) {
-    background-position: bottom 170px right 110px;
+    background-position: bottom 10.625rem right 6.875rem;
   }
 
   .skill-item:nth-child(3) {
-    background-position: bottom 172px right 95px;
+    background-position: bottom 10.75rem right 5.9375rem;
   }
 
   .skill-item:nth-child(4) {
-    background-position: bottom 170px right 110px;
-    margin-left: 23px;
+    background-position: bottom 10.625rem right 6.875rem;
+    margin-left: 1.4375rem;
   }
 
   .skill-item-title {
-    padding: 47px 20px 0px 20px;
+    padding: 2.9375rem 1.25rem 0rem 1.25rem;
   }
 
   .skill-item:nth-child(2) > .skill-item-title {
-    padding-top: 58px;
-    padding-left: 40px;
+    padding-top: 3.625rem;
+    padding-left: 2.5rem;
   }
 
   .skill-item:nth-child(2) > .skill-item-text {
-    padding-bottom: 53px;
-    padding-left: 20px;
+    padding-bottom: 3.3125rem;
+    padding-left: 1.25rem;
   }
 
   .skill-item:nth-child(2) span {
@@ -835,7 +835,7 @@ textarea {
 
   .skill-item:nth-child(3) > .skill-item-title {
     padding-top: 50px;
-    padding-left: 65px;
+    padding-left: 4.0625rem;
   }
 
   .skill-item:nth-child(3) > .skill-item-text {
@@ -845,17 +845,17 @@ textarea {
 
   .skill-item:nth-child(4) > .skill-item-title {
     padding-top: 50px;
-    padding-left: 48px;
+    padding-left: 3rem;
   }
 
   .skill-item:nth-child(4) > .skill-item-text {
     padding-bottom: 50px;
-    padding-left: 17.5px;
+    padding-left: 1.0938rem;
     padding-right: 0;
   }
 
   .skill-item-text {
-    width: 280px;
+    width: 17.5rem;
     height: 44px;
     line-height: 21px;
 
@@ -879,19 +879,19 @@ textarea {
   }
 
   .portfolio-btns {
-    width: 660px;
+    width: 41.25rem;
     height: 115px;
     display: flex;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 0.3125rem;
     margin-bottom: 60px;
   }
 
   .portfolio-images {
-    width: 450px;
+    width: 28.125rem;
     height: 3485px;
 
     display: flex;
@@ -903,7 +903,7 @@ textarea {
   }
 
   .portfolio-image {
-    width: 450px;
+    width: 28.125rem;
     height: 560px;
   }
 
@@ -915,7 +915,7 @@ textarea {
   .video-player {
     margin-top: 0;
     padding-top: 0;
-    width: 768px;
+    width: 48rem;
     height: 418px;
 
     background: url("./assets/img/video-player-tablet.png");
@@ -931,7 +931,7 @@ textarea {
   }
 
   .video-player-button {
-    width: 75px;
+    width: 4.6875rem;
     height: 75px;
     left: 346px;
     top: 171px;
