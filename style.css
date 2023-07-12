@@ -25,11 +25,9 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   background-color: var(--body-color);
 }
 
@@ -47,11 +45,9 @@ body {
   max-width: 90rem;
   display: flex;
   flex-direction: row;
-
   align-items: center;
   margin: 0 auto;
   padding: 0 20px;
-
   height: 5.625rem;
   background: url("./assets/img/bg.png");
   background-repeat: no-repeat;
@@ -68,29 +64,8 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: space-around;
   list-style: none;
-}
-
-.nav-list::first-child {
-  padding-left: 30px;
-}
-
-.nav-item:nth-child(2) {
-  padding-left: 10px;
-}
-
-.nav-item:nth-child(3) {
-  padding-right: 4px;
-}
-
-.nav-item:nth-child(4) {
-  padding-right: 4px;
-}
-
-.nav-item:nth-child(5) {
-  padding-right: 32px;
 }
 
 .nav-link {
@@ -115,7 +90,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: auto;
-
   color: #ffffff;
 }
 
@@ -129,6 +103,9 @@ input[type="radio"] {
 }
 
 .lang {
+  display: flex;
+  justify-content: space-around;
+  width: 3.75rem;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -139,10 +116,6 @@ input[type="radio"] {
 
 input:checked + label {
   color: #bdae82;
-}
-
-.slash {
-  padding-left: 10px;
 }
 
 a {
@@ -166,15 +139,14 @@ a {
   background-image: url("./assets/img/bg.png");
   background-position: center -90px;
   background-repeat: no-repeat;
-
   display: flex;
 }
 
 .hero-block {
-  width: 550px;
+  width: 34.375rem;
   height: 330px;
-  padding-top: 110px;
-  padding-left: 43px;
+  padding-top: 6.875rem;
+  padding-left: 2.6875rem;
 }
 
 .hero-title {
@@ -199,9 +171,9 @@ a {
 }
 
 .button {
-  margin-top: 24px;
-  height: 55px;
-  width: 220px;
+  margin-top: 1.5rem;
+  height: 3.4375rem;
+  width: 13.75rem;
   border-radius: 0px;
   border: 0;
   background-color: #bdae82;
@@ -299,30 +271,24 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(1) {
   background-image: url("./assets/svg/camera.svg");
-  background-repeat: no-repeat;
-  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(2) {
   background-image: url("./assets/svg/video.svg");
-  background-repeat: no-repeat;
-  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(3) {
   background-image: url("./assets/svg/retouch.svg");
-  background-repeat: no-repeat;
-  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item:nth-child(4) {
   background-image: url("./assets/svg/mic.svg");
-  background-repeat: no-repeat;
-  background-size: 3.875rem 3.125rem;
 }
 
 .skill-item-title {
