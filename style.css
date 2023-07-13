@@ -597,25 +597,18 @@ textarea {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 150px;
-  max-width: 87.5rem;
   background: #000000;
 }
 
 .footer-data {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 11.375rem;
-  margin: 0;
-  padding: 0;
-  padding-left: 10px;
 }
 
 .copyright {
-  height: 50px;
-  width: 1.1875rem;
+  /* height: 50px;
+  width: 1.1875rem; */
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -626,8 +619,6 @@ textarea {
 }
 
 .date {
-  height: 50px;
-  width: 3.0625rem;
   margin-right: 20px;
   margin-left: 10px;
   font-family: Inter;
@@ -639,14 +630,11 @@ textarea {
 }
 
 .github {
-  height: 50px;
-  width: 3.8125rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: var(--font-small);
   line-height: 50px;
-  padding-right: 26.625rem;
   color: #ffffff;
 }
 
@@ -658,10 +646,10 @@ textarea {
   color: #bdae82;
 }
 
+.icon {
+  width: 55px;
+}
 .rsschool {
-  height: 50px;
-  width: 13.1875rem;
-  margin-left: 13.75rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -672,16 +660,16 @@ textarea {
 
 .social-list {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   width: 11.75rem;
-  border-radius: 0px;
-  margin: 0;
-  padding: 0;
+  border-radius: 0px; */
+  /* margin: 0;
+  padding: 0; */
 }
 
-/* MEDIA 768 */
+/**************************** MEDIA 768 *****************************/
 
 @media (max-width: 768px) {
   .container {
@@ -744,16 +732,16 @@ textarea {
   }
 
   .skills-items {
-    width: 45.5rem;
-    height: 520px;
+    /* width: 45.5rem;
+    height: 520px; */
     justify-content: space-evenly;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
   }
 
-  .skill-item {
+  /* .skill-item {
     height: 224px;
     width: 18.75rem;
-  }
+  } */
 
   .skill-item-text {
     width: 17.5rem;
@@ -794,12 +782,9 @@ textarea {
   .portfolio-images {
     width: 28.125rem;
     height: 3485px;
-
     display: flex;
     flex-direction: column;
-
     margin: 0 auto;
-
     margin-bottom: 80px;
   }
 
@@ -814,11 +799,10 @@ textarea {
   }
 
   .video-player {
-    margin-top: 0;
+    /* margin-top: 0;
     padding-top: 0;
-    width: 48rem;
+    width: 48rem; */
     height: 418px;
-
     background: url("./assets/img/video-player-tablet.png");
     background-repeat: no-repeat;
     background-position: top 30px;
@@ -827,7 +811,6 @@ textarea {
 
   #video .section-title {
     line-height: 80px;
-
     height: 70px;
   }
 
@@ -841,37 +824,31 @@ textarea {
 
   #price .section-title {
     line-height: 80px;
-
     height: 70px;
   }
 
   .price-items {
-    width: 768px;
     height: 1615px;
 
-    display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    margin-bottom: 80px;
   }
 
   .price-item {
-    width: 420px;
+    width: 26.25rem;
     margin-bottom: 26px;
   }
 
-  .price-items-title {
+  /* .price-items-title {
     padding: 40px 161px 20px 145px;
-  }
+  } */
 
-  .price-item:nth-child(3) > .price-items-title {
+  /* .price-item:nth-child(3) > .price-items-title {
     padding: 37px 161px 20px 169px;
-  }
+  } */
 
   .price-items-price {
     line-height: 48px;
-
     padding-bottom: 20px;
   }
 
@@ -879,17 +856,14 @@ textarea {
     line-height: 36px;
   }
 
-  .price-button {
+  /* .price-button {
     margin: 40px 50px 50px 100px;
-  }
+  } */
 
   .contacts {
-    width: 768px;
     height: 600px;
     background: url("./assets/img/contacts-bg-tablet.jpeg");
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
     align-items: center;
   }
 
@@ -899,14 +873,13 @@ textarea {
     margin: 0 auto;
     padding: 0;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: space-around;
   }
 
   .contacts-title {
-    width: 450px;
+    width: 28.125rem;
     height: 64px;
-
     margin-top: -50px;
     margin-bottom: 20px;
     display: flex;
@@ -917,40 +890,15 @@ textarea {
   }
 
   .footer {
-    width: 768px;
-    height: 190px;
-    display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 0;
-    align-items: center;
   }
 
-  .copyright {
-    padding: 0;
-  }
-
-  .date {
-    margin: 0;
-    padding: 0;
-  }
-
-  .github {
-    padding: 0;
-  }
-
-  .footer-data {
-    margin-top: 17px;
-    margin-bottom: 0;
+  .container-footer {
+    justify-content: center;
   }
 
   .rsschool {
-    margin: 0;
-    line-height: 20px;
-  }
-
-  .social-list {
-    margin-bottom: 30px;
+    margin-left: 0;
   }
 
   .nav {
@@ -969,12 +917,11 @@ textarea {
   }
 
   .theme {
-    margin-right: 140px;
+    margin-right: 8.75rem;
   }
 
   .hamburger {
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1041,10 +988,10 @@ textarea {
     align-items: flex-start;
 
     position: absolute;
-    width: 150px;
+    width: 9.375rem;
     height: 429px;
-    top: 134px;
-    left: 128px;
+    top: 8.375rem;
+    left: 8rem;
 
     overflow-x: hidden;
     overflow-y: hidden;
