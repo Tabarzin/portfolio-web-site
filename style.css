@@ -610,6 +610,7 @@ textarea {
   width: 11.375rem;
   margin: 0;
   padding: 0;
+  padding-left: 10px;
 }
 
 .copyright {
@@ -672,11 +673,9 @@ textarea {
 .social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-
   width: 11.75rem;
-
   border-radius: 0px;
   margin: 0;
   padding: 0;
