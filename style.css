@@ -693,19 +693,13 @@ textarea {
     margin-left: 3.75rem;
   }
 
+  .lang {
+    width: 5.375rem;
+    height: 3.125rem;
+  }
+
   .header-container {
     max-width: 48rem;
-    /* display: flex;
-    justify-content: space-around;
-
-    padding: 0;
-    margin: 0;
-
-    background-image: url("./assets/svg/bg-768.svg");
-
-    padding: 0;
-
-    overflow-x: hidden; */
   }
 
   .hero-container {
@@ -721,10 +715,6 @@ textarea {
 
   .hero-title {
     font-size: 32px;
-    /* line-height: 64px;
-    font-weight: normal;
-    margin-bottom: 16px;
-    padding-top: 30px; */
   }
 
   .hero-text {
@@ -763,63 +753,6 @@ textarea {
   .skill-item {
     height: 224px;
     width: 18.75rem;
-  }
-
-  /* .skill-item:nth-child(1) {
-    margin-left: 1.5625rem;
-    margin-top: 0.3125rem;
-  }
-
-  .skill-item:nth-child(2) {
-    background-position: bottom 10.625rem right 6.875rem;
-  }
-
-  .skill-item:nth-child(3) {
-    background-position: bottom 10.75rem right 5.9375rem;
-  }
-
-  .skill-item:nth-child(4) {
-    background-position: bottom 10.625rem right 6.875rem;
-    margin-left: 1.4375rem;
-  } */
-
-  .skill-item-title {
-    /* padding: 2.9375rem 1.25rem 0rem 1.25rem; */
-  }
-
-  .skill-item:nth-child(2) > .skill-item-title {
-    padding-top: 3.625rem;
-    padding-left: 2.5rem;
-  }
-
-  .skill-item:nth-child(2) > .skill-item-text {
-    padding-bottom: 3.3125rem;
-    padding-left: 1.25rem;
-  }
-
-  .skill-item:nth-child(2) span {
-    padding-bottom: 10px;
-  }
-
-  .skill-item:nth-child(3) > .skill-item-title {
-    padding-top: 50px;
-    padding-left: 4.0625rem;
-  }
-
-  .skill-item:nth-child(3) > .skill-item-text {
-    padding-bottom: 50px;
-    padding-left: 36px;
-  }
-
-  .skill-item:nth-child(4) > .skill-item-title {
-    padding-top: 50px;
-    padding-left: 3rem;
-  }
-
-  .skill-item:nth-child(4) > .skill-item-text {
-    padding-bottom: 50px;
-    padding-left: 1.0938rem;
-    padding-right: 0;
   }
 
   .skill-item-text {
