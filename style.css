@@ -135,7 +135,7 @@ a {
 .hero-container {
   max-width: 90rem;
   height: 55.625rem;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   background-image: url("./assets/img/bg.png");
   background-position: center -90px;
   background-repeat: no-repeat;
@@ -768,7 +768,7 @@ textarea {
   }
 
   .portfolio-btns {
-    width: 41.25rem;
+    /* width: 41.25rem; */
     height: 115px;
     display: flex;
     margin: 0 auto;
