@@ -822,16 +822,11 @@ textarea {
   }
 
   .video-player-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    */
-    /* width: 4.6875rem;
+    width: 4.6875rem;
     height: 4.6875rem;
-    left: 21.625rem;
+    /* left: 21.625rem;
     top: 10.6875rem; */
-    /* background-image: url("./assets/svg/play-btn-tablet.svg"); */
+    background-image: url("./assets/svg/play-btn-tablet.svg");
     /* background-image: url("./assets/svg/Play_hover.svg");
   }
 
@@ -856,11 +851,11 @@ textarea {
     padding: 40px 161px 20px 145px;
   } */
 
-  /* .price-item:nth-child(3) > .price-items-title {
+    /* .price-item:nth-child(3) > .price-items-title {
     padding: 37px 161px 20px 169px;
   } */
 
-  .price-items-price {
+    .price-items-price {
       line-height: 48px;
       padding-bottom: 20px;
     }
