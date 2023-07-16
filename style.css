@@ -38,13 +38,11 @@ body {
 .container {
   max-width: 90rem;
   margin: 0 auto;
-  /* padding: 0 20px; */
 }
 
 .header-container {
   max-width: 90rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin: 0 auto;
   padding: 0 20px;
@@ -135,7 +133,6 @@ a {
 .hero-container {
   max-width: 90rem;
   height: 55.625rem;
-  /* padding: 0 20px; */
   background-image: url("./assets/img/bg.png");
   background-position: center -90px;
   background-repeat: no-repeat;
@@ -301,13 +298,11 @@ a {
   color: #ffffff;
   height: 40px;
   width: 17.5rem;
-  /* padding: 5.9375rem 1.25rem 3.125rem 1.25rem; */
 }
 
 .skill-item-text {
   width: 17.5rem;
   height: 72px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -319,10 +314,8 @@ a {
 
 .portfolio-btns {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 0.3125rem;
-
   padding-bottom: 3.75rem;
 }
 
@@ -369,7 +362,6 @@ a {
   height: auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 1rem;
@@ -380,16 +372,9 @@ a {
   max-width: 100%;
   height: auto;
 }
-/* .portfolio-image {
-  height: 560px;
-  width: 28.125rem;
-  display: flex;
-  flex-direction: row;
-} */
 
 .video-player {
   height: 780px;
-  /* width: 1440px; */
   margin: auto 20px;
   border-radius: 0px;
   position: relative;
@@ -412,12 +397,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /* position: absolute;
-  left: 44%;
-  right: 50%;
-  top: 37%;
-  bottom: 30%; */
   background-image: url("./assets/svg/Play_hover.svg");
   background-color: transparent;
   background-repeat: no-repeat;
@@ -427,7 +406,6 @@ a {
 .video-player-button:hover {
   filter: invert(19%) sepia(25%) saturate(405%) hue-rotate(7deg) brightness(83%)
     contrast(86%);
-  border: none;
 }
 
 .price-items {
@@ -458,7 +436,6 @@ a {
 .price-items-title {
   display: flex;
   justify-content: space-around;
-
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
@@ -482,7 +459,6 @@ a {
 
 .price-items-text {
   display: block;
-
   border-radius: 0px;
   font-family: Inter;
   font-style: normal;
@@ -497,7 +473,6 @@ a {
   height: 55px;
   width: 13.75rem;
   margin: 2.1875rem 6.875rem;
-
   border-radius: 0px;
   background: #bdae82;
   border: 2px solid #bdae82;
@@ -521,7 +496,6 @@ a {
 
 .contacts {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   height: 700px;
   border-radius: 0px;
@@ -542,7 +516,6 @@ a {
   width: 28.125rem;
   height: 80px;
   margin-bottom: 20px;
-
   font-family: Merriweather;
   font-style: normal;
   font-weight: bold;
@@ -554,7 +527,6 @@ a {
 .contacts-container-box {
   height: 50px;
   width: 28.125rem;
-
   background: rgba(0, 0, 0, 0.5);
   border: 2px solid #bdae82;
   box-sizing: border-box;
@@ -589,7 +561,6 @@ textarea {
 .contacts-button {
   height: 55px;
   width: 13.75rem;
-
   cursor: pointer;
   border-radius: 0px;
   background: #bdae82;
@@ -614,14 +585,11 @@ textarea {
 }
 
 .copyright {
-  /* height: 50px;
-  width: 1.1875rem; */
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: var(--font-small);
   line-height: 50px;
-
   color: #ffffff;
 }
 
@@ -667,13 +635,6 @@ textarea {
 
 .social-list {
   display: flex;
-  /* flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 11.75rem;
-  border-radius: 0px; */
-  /* margin: 0;
-  padding: 0; */
 }
 
 /**************************** MEDIA 768 *****************************/
@@ -681,7 +642,6 @@ textarea {
 @media (max-width: 768px) {
   .container {
     max-width: 48rem;
-    /* padding: 0; */
   }
 
   .logo {
@@ -721,8 +681,6 @@ textarea {
   }
 
   .section-title {
-    font-style: normal;
-    font-weight: bold;
     font-size: 32px;
     line-height: 40px;
   }
@@ -739,22 +697,13 @@ textarea {
   }
 
   .skills-items {
-    /* width: 45.5rem;
-    height: 520px; */
     justify-content: space-evenly;
-    /* margin-bottom: 90px; */
   }
-
-  /* .skill-item {
-    height: 224px;
-    width: 18.75rem;
-  } */
 
   .skill-item-text {
     width: 17.5rem;
     height: 44px;
     line-height: 21px;
-
     padding-bottom: 50px;
   }
 
@@ -775,12 +724,8 @@ textarea {
   }
 
   .portfolio-btns {
-    /* width: 41.25rem; */
     height: 7.1875rem;
-    display: flex;
-    margin: 0 auto;
     padding: 0;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 0.3125rem;
     margin-bottom: 3.75rem;
@@ -789,32 +734,16 @@ textarea {
   .portfolio-images {
     width: 28.125rem;
     height: 3485px;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     margin-bottom: 80px;
   }
 
-  /* .portfolio-image {
-    width: 28.125rem;
-    height: 560px;
-  } */
-
-  .portfolio-image:nth-child(2) {
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-
   .video-player {
-    /* margin-top: 0;
-    padding-top: 0;
-    width: 48rem; */
-    height: 26.125rem;
+    height: 19.125rem;
     background: url("./assets/img/video-player.png");
     background-repeat: no-repeat;
-    background-position: center; /*top 30px; */
+    background-position: center;
     background-size: contain;
-    /* margin-bottom: 80px; */
   }
 
   #video .section-title {
@@ -825,8 +754,6 @@ textarea {
   .video-player-button {
     width: 4.6875rem;
     height: 4.6875rem;
-    /* left: 21.625rem;
-    top: 10.6875rem; */
     background-image: url("./assets/svg/play-btn-tablet.svg");
   }
 
@@ -837,7 +764,6 @@ textarea {
 
   .price-items {
     height: 1615px;
-
     flex-direction: column;
     align-items: center;
   }
@@ -847,54 +773,29 @@ textarea {
     margin-bottom: 26px;
   }
 
-  /* .price-items-title {
-    padding: 40px 161px 20px 145px;
-  } */
-
-  /* .price-item:nth-child(3) > .price-items-title {
-    padding: 37px 161px 20px 169px;
-  } */
-
-  .price-items-price {
-    line-height: 48px;
-    padding-bottom: 20px;
-  }
-
   .price-items-text {
     line-height: 36px;
   }
 
-  /* .price-button {
-    margin: 40px 50px 50px 100px;
-  } */
-
   .contacts {
     height: 600px;
     background: url("./assets/img/contacts-bg-tablet.jpeg");
-
     align-items: center;
   }
 
   .contacts-container {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     padding: 0;
     align-items: center;
     gap: 1.25rem;
-    justify-content: space-around;
   }
 
   .contacts-title {
-    width: 28.125rem;
     height: 64px;
     margin-top: -50px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 32px;
-    line-height: 64px;
   }
 
   .footer {
@@ -971,7 +872,6 @@ textarea {
     background-color: #000;
     position: fixed;
     z-index: 10;
-
     top: 0;
     right: -625px;
   }
@@ -983,9 +883,7 @@ textarea {
     background-color: #000;
     position: fixed;
     z-index: 10;
-
     top: 0;
-
     transition: 0.5s;
     right: 0;
   }
@@ -994,24 +892,13 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     position: absolute;
     width: 9.375rem;
     height: 429px;
     top: 8.375rem;
     left: 8rem;
-
     overflow-x: hidden;
     overflow-y: hidden;
-  }
-
-  .nav-item:nth-child(2),
-  .nav-list:nth-child(1) {
-    padding-left: 0;
-  }
-
-  .nav-item {
-    padding-bottom: 5px;
   }
 
   .nav-list {
@@ -1089,6 +976,7 @@ textarea {
   margin-left: 1.75rem;
   cursor: pointer;
   border: none;
+  outline: none;
 }
 
 .theme-moon {
