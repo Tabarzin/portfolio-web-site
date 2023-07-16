@@ -154,9 +154,9 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: var(--font-large);
-  line-height: 120px;
+  line-height: 7.5rem;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .hero-text {
@@ -323,11 +323,11 @@ a {
   justify-content: center;
   gap: 0.3125rem;
 
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
 }
 
 .portfiolio-btn {
-  height: 55px;
+  height: 3.4375rem;
   width: 13.75rem;
   border: 2px solid #bdae82;
   box-sizing: border-box;
@@ -776,14 +776,14 @@ textarea {
 
   .portfolio-btns {
     /* width: 41.25rem; */
-    height: 115px;
+    height: 7.1875rem;
     display: flex;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.3125rem;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   .portfolio-images {
@@ -795,10 +795,10 @@ textarea {
     margin-bottom: 80px;
   }
 
-  .portfolio-image {
+  /* .portfolio-image {
     width: 28.125rem;
     height: 560px;
-  }
+  } */
 
   .portfolio-image:nth-child(2) {
     margin-top: 15px;
@@ -1081,12 +1081,12 @@ textarea {
 }
 
 .theme {
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
   background-image: url("./assets/svg/sun.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 28px;
+  margin-left: 1.75rem;
   cursor: pointer;
   border: none;
 }
@@ -1109,4 +1109,63 @@ textarea {
 
 button {
   background: transparent;
+}
+
+@media (max-width: 480px) {
+  .logo,
+  .theme {
+    margin-left: 0;
+  }
+
+  .hero-text {
+    width: 20.375rem;
+  }
+
+  .skills-items {
+    gap: 0;
+  }
+
+  .portfolio-section-title {
+    margin-bottom: 13px;
+  }
+
+  .portfolio-btns {
+    margin-bottom: 8.75rem;
+  }
+
+  .portfolio-images {
+    width: 22.125rem;
+    height: 170.8125rem;
+  }
+
+  .portfolio-image:nth-child(2) {
+    margin: 0;
+  }
+
+  .price-items {
+    height: 96.8125rem;
+  }
+
+  .price-item {
+    width: 22.25rem;
+    margin-bottom: 0px;
+  }
+
+  .video-player {
+    height: 10.125rem;
+  }
+
+  .contacts-container-box {
+    width: 18.125rem;
+  }
+  .contacts-container-message {
+    width: 18.125rem;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+
+  .header-burger-open {
+    height: 1480px;
+    left: -15px;
+  }
 }
