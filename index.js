@@ -197,31 +197,68 @@ const elemsToChangeColor = [
 const themeBtn = document.querySelector(".theme");
 
 function toggleTheme() {
-  let sunMoon = document.querySelector(".theme");
+  const sunMoon = document.querySelector(".theme");
+  const isMoonTheme = sunMoon.classList.toggle("theme-moon");
 
   elemsToChangeColor.forEach((el) => {
-    const item = document.querySelectorAll(el);
-    item.forEach((elem) => {
-      sunMoon.classList.toggle("theme-moon");
-
-      elem.classList.toggle("light-theme");
+    const items = document.querySelectorAll(el);
+    items.forEach((elem) => {
+      elem.classList.toggle("light-theme", isMoonTheme);
+      elem.classList.toggle("dark-theme", !isMoonTheme);
     });
   });
 }
 
 themeBtn.addEventListener("click", toggleTheme);
 
+// Apply the initial theme based on the stored preference or a default value
+const storedTheme = localStorage.getItem("theme");
+if (storedTheme === "dark") {
+  toggleTheme();
+}
+
 /* LOCAL STORAGE  */
 
-function setLocalStorage() {
-  localStorage.setItem("lang", lang);
+const radioButtons = document.querySelectorAll('input[name="lang"]');
+const themeButton = document.querySelector(".theme");
+const defaultLanguage = "en"; // Set a default language if needed
+const defaultTheme = "dark"; // Set a default theme if needed
+
+function updateLanguagePreference() {
+  const selectedLanguage = document.querySelector(
+    'input[name="lang"]:checked'
+  ).value;
+  localStorage.setItem("lang", selectedLanguage);
+  // Call any function or perform actions based on the selected language
+  getTranslate(selectedLanguage); // Assuming you have a getTranslate function
 }
-window.addEventListener("beforeunload", setLocalStorage);
+
+function updateThemePreference() {
+  const selectedTheme = themeButton.classList.contains("dark")
+    ? "dark"
+    : "light";
+  localStorage.setItem("theme", selectedTheme);
+}
+
+themeButton.addEventListener("click", () => {
+  themeButton.classList.toggle("dark");
+  updateThemePreference();
+});
 
 function getLocalStorage() {
-  if (localStorage.getItem("lang")) {
-    const lang = localStorage.getItem("lang");
-    getTranslate(lang);
-  }
+  const storedLanguage = localStorage.getItem("lang");
+  const languageToSelect = storedLanguage || defaultLanguage;
+  document.querySelector(`input[value="${languageToSelect}"]`).checked = true;
+  // Call any function or perform actions based on the stored language
+  getTranslate(languageToSelect); // Assuming you have a getTranslate function
+
+  const storedTheme = localStorage.getItem("theme");
+  const themeToApply = storedTheme || defaultTheme;
+  themeButton.classList.toggle("dark", themeToApply === "dark");
 }
+
+radioButtons.forEach((radioButton) => {
+  radioButton.addEventListener("change", updateLanguagePreference);
+});
+
 window.addEventListener("load", getLocalStorage);
