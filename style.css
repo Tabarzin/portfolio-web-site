@@ -82,8 +82,8 @@ body {
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   background-image: url("./assets/svg/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1055,5 +1055,34 @@ button {
   .header-burger-open {
     height: 1480px;
     left: -15px;
+  }
+}
+
+@media (min-width: 320px) {
+  .lang {
+    display: flex;
+    line-height: 40px;
+    margin-left: 6px;
+  }
+  .theme {
+    margin-right: 5.75rem;
+  }
+
+  .hero-container {
+    height: auto;
+    background-image: url(./assets/img/bg.png);
+    height: 34.625rem;
+    margin-bottom: 0;
+  }
+
+  .hamburger {
+    right: 25px;
+  }
+
+  .hero-text {
+    width: 15.375rem;
+  }
+  .button {
+    margin-top: 4.5rem;
   }
 }

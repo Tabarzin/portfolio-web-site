@@ -211,7 +211,7 @@ function toggleTheme() {
 
 themeBtn.addEventListener("click", toggleTheme);
 
-// Apply the initial theme based on the stored preference or a default value
+
 const storedTheme = localStorage.getItem("theme");
 if (storedTheme === "dark") {
   toggleTheme();
@@ -221,16 +221,16 @@ if (storedTheme === "dark") {
 
 const radioButtons = document.querySelectorAll('input[name="lang"]');
 const themeButton = document.querySelector(".theme");
-const defaultLanguage = "en"; // Set a default language if needed
-const defaultTheme = "dark"; // Set a default theme if needed
+const defaultLanguage = "en"; 
+const defaultTheme = "dark"; 
 
 function updateLanguagePreference() {
   const selectedLanguage = document.querySelector(
     'input[name="lang"]:checked'
   ).value;
   localStorage.setItem("lang", selectedLanguage);
-  // Call any function or perform actions based on the selected language
-  getTranslate(selectedLanguage); // Assuming you have a getTranslate function
+  
+  getTranslate(selectedLanguage); 
 }
 
 function updateThemePreference() {
@@ -249,8 +249,8 @@ function getLocalStorage() {
   const storedLanguage = localStorage.getItem("lang");
   const languageToSelect = storedLanguage || defaultLanguage;
   document.querySelector(`input[value="${languageToSelect}"]`).checked = true;
-  // Call any function or perform actions based on the stored language
-  getTranslate(languageToSelect); // Assuming you have a getTranslate function
+  
+  getTranslate(languageToSelect); 
 
   const storedTheme = localStorage.getItem("theme");
   const themeToApply = storedTheme || defaultTheme;
