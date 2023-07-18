@@ -1058,7 +1058,7 @@ button {
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 479px) {
   .lang {
     display: flex;
     line-height: 40px;
@@ -1084,5 +1084,23 @@ button {
   }
   .button {
     margin-top: 4.5rem;
+  }
+
+  .portfolio-images {
+    width: 16.125rem;
+    height: auto;
+  }
+
+  .price-item {
+    width: 16.25rem;
+  }
+
+  .contacts-container {
+    width: 100%;
+  }
+
+  .contacts-title {
+    width: 100%;
+    font-size: 25px;
   }
 }
